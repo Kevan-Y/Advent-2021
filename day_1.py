@@ -32,7 +32,7 @@ def challenge2(data: list[int]) -> int:
     return counter
 
 
-def main():
+def main() -> None:
     f = open(os.path.join(sys.path[0], "data/day_1_input.txt"), "r")
     data = f.read()
     data_list = data.split("\n")
